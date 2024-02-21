@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <p id="your-peer-id"></p>
+        <input
+            type="text"
+            id="input-friend-peer-id"
+            onchange="handleInputFriendPeerId()"
+            placeholder="Your contact's username"
+        />
+        <div class="send-message-items">
+            <input type="text" id="message-input" placeholder="Message" />
+            <button id="send-message-btn" onclick="sendMessage()">Send</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

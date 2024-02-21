@@ -1,0 +1,47 @@
+* {
+    font-family: "Jetbrains mono";
+}
+
+p {
+    color: #e3e2e6;
+}
+
+body {
+    background-color: #1a1c1e;
+}
+
+input {
+    background-color: #1a1c1e;
+    color: #929396;
+    border-radius: 15px;
+    border: 1px solid #929396;
+    padding: 5px;
+    font-size: 16px;
+    cursor: text;
+}
+
+#message-input {
+    color: #e3e2e6;
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.send-message-items {
+    position: fixed; /* Позиционирование фиксированное */
+    bottom: 0; /* Расположение внизу экрана */
+    left: 50%; /* Расположение по горизонтали в центре */
+    width: 85%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #1b4682;
+    color: #d8e3fd;
+    border-radius: 15px;
+    border: 0px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
